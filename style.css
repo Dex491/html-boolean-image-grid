@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: grid;
+}
+
+header {
+	display: grid;
+	width: 100%;
+	height: 5vh;
+	background: #011434;
+}
+
+header img {
+	height: 5vh;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 300px);
+	gap: 5px;
+	justify-content: center;
+	margin: 50px 0px 50px 0px;
+	width: 100%;
+}
+
+.card {
+	border: 2px solid black;
+	background: white;
+	width: 250px;
+	height: 400px;
+	position: relative;
+	border-radius: 10px;
+}
+
+.laptop {
+	width: 100%;
+	object-fit: cover;
+	height: auto;
+}
+
+.boolean-logo {
+	border-radius: 50%;
+	width: 50px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: auto;
+}
+
+.socials-box {
+	text-align: right;
+	padding: 10px;
+}
+
+.socials-box img {
+	width: 30px;
+	height: auto;
+}
+
+p {
+	padding: 0px 10px 0px 10px;
+	margin: 0;
+}
+
+.hero-image {
+	height: 100%;
+	width: 100%;
+	background-image: url("./assets/images/hero.jpg");
+	background-position: bottom;
+}
